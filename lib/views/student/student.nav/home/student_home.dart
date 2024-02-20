@@ -117,7 +117,7 @@ class GridItem extends StatelessWidget {
             Text(
               value,
               textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 20),
+              style: const TextStyle(fontSize: 17),
             ),
           ],
         ),

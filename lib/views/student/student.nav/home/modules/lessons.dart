@@ -58,36 +58,78 @@ class LessonsPage extends StatelessWidget {
                 children: <Widget>[
                   LessonGridItem(
                     image: 'assets/images/book1.png',
-                    title: 'Social Welfare',
+                    title: 'Chapter1',
                     onTap: () {
-                      context.push("/student/lessons/${"social_welfare.pdf"}");
+                      context.push("/student/lessons/${"chapter_1.pdf"}");
                     },
                   ),
                   LessonGridItem(
                     image: 'assets/images/book2.png',
-                    title: 'Social Services',
+                    title: 'Chapter2',
                     onTap: () {
-                      context.push("/student/lessons/${"social_service.pdf"}");
+                      context.push("/student/lessons/${"chapter_2.pdf"}");
                     },
                   ),
                   LessonGridItem(
                     image: 'assets/images/book3.png',
-                    title: 'Social Work',
+                    title: 'Chapter3',
                     onTap: () {
-                      context.push("/student/lessons/${"social_work.pdf"}");
+                      context.push("/student/lessons/${"chapter_3.pdf"}");
                     },
                   ),
                   LessonGridItem(
-                      image: 'assets/images/book4.png',
-                      title: "Owwa",
+                    image: 'assets/images/book4.png',
+                    title: 'Chapter 4',
+                    onTap: () {
+                      context.push("/student/lessons/${"chapter_.pdf"}");
+                    },
+                  ),
+                  LessonGridItem(
+                    image: 'assets/images/book5.png',
+                    title: 'Chapter 5',
+                    onTap: () {
+                      context.push("/student/lessons/${"_chapter_5.pdf"}");
+                    },
+                  ),
+                  LessonGridItem(
+                    image: 'assets/images/book6.png',
+                    title: 'Chapter 6',
+                    onTap: () {
+                      context.push("/student/lessons/${"chapter_6.pdf"}");
+                    },
+                  ),
+                  LessonGridItem(
+                    image: 'assets/images/book7.png',
+                    title: 'Chapter 7',
+                    onTap: () {
+                      context.push("/student/lessons/${"chapter_7.pdf"}");
+                    },
+                  ),
+                  LessonGridItem(
+                    image: 'assets/images/book8.png',
+                    title: 'Chapter 8',
+                    onTap: () {
+                      context.push("/student/lessons/${"chapter_8.pdf"}");
+                    },
+                  ),
+                  LessonGridItem(
+                    image: 'assets/images/book9.png',
+                    title: 'Chapter 9',
+                    onTap: () {
+                      context.push("/student/lessons/${"chapter_9.pdf"}");
+                    },
+                  ),
+                  LessonGridItem(
+                      image: 'assets/images/book10.png',
+                      title: "Chapter 10",
                       onTap: () {
-                        context.push("/student/lessons/${"owwa.pdf"}");
+                        context.push("/student/lessons/${"chapter_10.pdf"}");
                       }),
                   LessonGridItem(
-                      image: 'assets/images/book5.png',
-                      title: "Test",
+                      image: 'assets/images/book11.png',
+                      title: "Chapter 11",
                       onTap: () {
-                        context.push("/student/lessons/${"test.pdf"}");
+                        context.push("/student/lessons/${"chapter_11.pdf"}");
                       })
                 ],
               ),
